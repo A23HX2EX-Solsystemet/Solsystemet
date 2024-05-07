@@ -4,8 +4,11 @@ class Planet {
   float y=0;
   int radius=50;
   color planetColor=#0000ff;
+  int daysOfRotation;
+  
   //constuktor
-  Planet() {
+  Planet(int daysOfRotation) {
+    this.daysOfRotation=daysOfRotation;
   }
   //metoder
   void drawPlanet() {

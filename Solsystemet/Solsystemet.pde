@@ -5,7 +5,7 @@ int  inputYear;
 int dayNumber;
 
 Stjerne sun=new Stjerne();
-Planet planet=new Planet();
+Planet jorden=new Planet(365);
 void setup() {
   size (1500, 1000);
     // Example input date
