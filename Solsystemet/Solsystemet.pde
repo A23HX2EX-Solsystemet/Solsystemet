@@ -9,8 +9,8 @@ Planet jorden=new Planet(365);
 void setup() {
   size (1500, 1000);
     // Example input date
-  inputDay = 1;
-  inputMonth = 12;
+  inputDay = 23;
+  inputMonth =5;
   inputYear = 2004;
   calculateDayNumber();
 }
@@ -19,8 +19,7 @@ void draw() {
   pushMatrix();
   translate(750,500);
   sun.drawSun();
-  planet.drawPlanet();
-  planet.movePlanet();
+  jorden.drawPlanet();
   popMatrix();
 }
 

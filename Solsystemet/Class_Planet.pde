@@ -12,12 +12,11 @@ class Planet {
   }
   //metoder
   void drawPlanet() {
+    circle(0, 0, 200);
+  rotate(2*PI*dayNumber/daysOfRotation);
     fill(planetColor);
     circle (x, y, radius);
   }
   
-  void movePlanet(){
-    x=x+1;
-    y=y+0.1;
-  }
+ 
 }
