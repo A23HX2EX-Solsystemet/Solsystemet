@@ -12,4 +12,9 @@ class Planet {
     fill(planetColor);
     circle (x, y, radius);
   }
+  
+  void movePlanet(){
+    x=x+1;
+    y=y+0.1;
+  }
 }

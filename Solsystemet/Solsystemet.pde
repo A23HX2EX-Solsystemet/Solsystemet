@@ -1,5 +1,5 @@
 Stjerne sun=new Stjerne();
-Planet Planet=new Planet();
+Planet planet=new Planet();
 void setup() {
   size (1500, 1000);
 }
@@ -8,6 +8,7 @@ void draw() {
   pushMatrix();
   translate(750,500);
   sun.drawSun();
-  Planet.drawPlanet();
+  planet.drawPlanet();
+  planet.movePlanet();
   popMatrix();
 }
