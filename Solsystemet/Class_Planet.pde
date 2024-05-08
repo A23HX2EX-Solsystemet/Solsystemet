@@ -5,18 +5,26 @@ class Planet {
   int radius=50;
   color planetColor=#0000ff;
   int daysOfRotation;
-  
+
   //constuktor
-  Planet(int daysOfRotation) {
+  Planet(int daysOfRotation, color c) {
     this.daysOfRotation=daysOfRotation;
+    planetColor = c;
   }
   //metoder
   void drawPlanet() {
-    circle(0, 0, 200);
-  rotate(2*PI*dayNumber/daysOfRotation);
+    pushMatrix();
+    rotate(2*PI*dayNumber/daysOfRotation);
     fill(planetColor);
     circle (x, y, radius);
+    popMatrix();
   }
-  
- 
+
+  void drawmars() {
+    pushMatrix();
+    rotate(2*PI*dayNumber/daysOfRotation);
+    fill(planetColor);
+    circle (375, 0, 25);
+    popMatrix();
+  }
 }

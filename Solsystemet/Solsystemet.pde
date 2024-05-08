@@ -5,7 +5,8 @@ int  inputYear;
 int dayNumber;
 
 Stjerne sun=new Stjerne();
-Planet jorden=new Planet(365);
+Planet jorden=new Planet(365, #0000ff);
+Planet mars=new Planet(686, #FF0000);
 void setup() {
   size (1500, 1000);
     // Example input date
@@ -15,11 +16,13 @@ void setup() {
   calculateDayNumber();
 }
 void draw() {
+  dayNumber=dayNumber+1;
   background(0);
   pushMatrix();
   translate(750,500);
   sun.drawSun();
   jorden.drawPlanet();
+  mars.drawmars();
   popMatrix();
 }
 
