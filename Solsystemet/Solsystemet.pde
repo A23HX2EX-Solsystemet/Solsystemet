@@ -5,8 +5,14 @@ int  inputYear;
 int dayNumber;
 
 Stjerne sun=new Stjerne();
+Planet merkur=new Planet(88, #0000ff);
+Planet venus=new Planet(243, #0000ff);
 Planet jorden=new Planet(365, #0000ff);
 Planet mars=new Planet(686, #FF0000);
+Planet jupitor=new Planet(4330, #0000ff);
+Planet saturn=new Planet(10759, #0000ff);
+Planet uranus=new Planet(30660, #0000ff);
+Planet neptun=new Planet(60152, #0000ff);
 void setup() {
   size (1500, 1000);
     // Example input date
@@ -21,8 +27,14 @@ void draw() {
   pushMatrix();
   translate(750,500);
   sun.drawSun();
-  jorden.drawPlanet();
+  merkur.drawmerkur();
+  venus.drawvenus();
+  jorden.drawjorden();
   mars.drawmars();
+  jupitor.drawjupitor();
+  saturn.drawsaturn();
+  uranus.drawuranus();
+  neptun.drawneptun();
   popMatrix();
 }
 
