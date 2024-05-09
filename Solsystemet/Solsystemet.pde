@@ -5,14 +5,14 @@ int  inputYear;
 int dayNumber;
 
 Stjerne sun=new Stjerne();
-Planet merkur=new Planet(88, #0000ff);
-Planet venus=new Planet(243, #0000ff);
-Planet jorden=new Planet(365, #0000ff);
-Planet mars=new Planet(686, #FF0000);
-Planet jupitor=new Planet(4330, #0000ff);
-Planet saturn=new Planet(10759, #0000ff);
-Planet uranus=new Planet(30660, #0000ff);
-Planet neptun=new Planet(60152, #0000ff);
+Planet merkur=new Planet(88, #0000ff, 75, 25);
+Planet venus=new Planet(243, #0000ff, 125, 35);
+Planet jorden=new Planet(365, #0000ff, 250, 50);
+Planet mars=new Planet(686, #FF0000, 375, 25);
+Planet jupitor=new Planet(4330, #0000ff, 500, 100);
+Planet saturn=new Planet(10759, #0000ff, 700, 100);
+Planet uranus=new Planet(30660, #0000ff, 800, 30);
+Planet neptun=new Planet(60152, #0000ff, 900,30);
 void setup() {
   fullScreen();
     // Example input date
@@ -27,14 +27,14 @@ void draw() {
   pushMatrix();
   translate(width/2,height/2);
   sun.drawSun();
-  merkur.drawmerkur();
-  venus.drawvenus();
-  jorden.drawjorden();
-  mars.drawmars();
-  jupitor.drawjupitor();
-  saturn.drawsaturn();
-  uranus.drawuranus();
-  neptun.drawneptun();
+  merkur.drawPlanet();
+  venus.drawPlanet();
+  jorden.drawPlanet();
+  mars.drawPlanet();
+  jupitor.drawPlanet();
+  saturn.drawPlanet();
+  uranus.drawPlanet();
+  neptun.drawPlanet();
   popMatrix();
 }
 
