@@ -14,7 +14,7 @@ Planet saturn=new Planet(10759, #0000ff);
 Planet uranus=new Planet(30660, #0000ff);
 Planet neptun=new Planet(60152, #0000ff);
 void setup() {
-  size (1500, 1000);
+  fullScreen();
     // Example input date
   inputDay = 23;
   inputMonth =5;
@@ -25,7 +25,7 @@ void draw() {
   dayNumber=dayNumber+1;
   background(0);
   pushMatrix();
-  translate(750,500);
+  translate(width/2,height/2);
   sun.drawSun();
   merkur.drawmerkur();
   venus.drawvenus();
