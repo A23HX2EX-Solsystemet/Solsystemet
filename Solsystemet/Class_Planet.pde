@@ -1,6 +1,5 @@
 class Planet {
   //atributer
-  float x=0;
   float y=0;
   int radius;
   int baneRadius;
@@ -19,7 +18,7 @@ class Planet {
     pushMatrix();
     rotate(2*PI*dayNumber/daysOfRotation);
     fill(planetColor);
-    circle (baneRadius, 0, radius);
+    circle (baneRadius, y, radius);
     popMatrix();
   }
 }
