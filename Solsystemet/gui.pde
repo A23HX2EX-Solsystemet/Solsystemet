@@ -19,9 +19,9 @@ public void textarea1_change1(GTextArea source, GEvent event) { //_CODE_:txaEven
 } //_CODE_:txaEvent:837004:
 
 public void button9_click1(GButton source, GEvent event) { //_CODE_:button9:585443:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
   txaEvent.setText("");
-   txaEvent.appendText("**Generel information om Merkur:**");
+  txaEvent.appendText("**Generel information om Merkur:**");
   txaEvent.appendText("1. **Størrelse og Afstand:** Merkur er kun lidt større end Månen og befinder sig kun 57,9 millioner kilometer fra Solen.");
   txaEvent.appendText("2. **Omløbstid:** Den tager omkring 88 jorddage at fuldføre en omgang om Solen, hvilket gør dens omløbstid meget kort i forhold til Jorden.");
   txaEvent.appendText("3. **Atmosfære:** Merkur har en meget tynd atmosfære, primært bestående af spor af ilt, natrium, hydrogen, helium og kalium. Den er så tynd, at den ikke kan opretholde nogen form for vejr.");
@@ -37,7 +37,7 @@ txaEvent.setVisible(true);
 } //_CODE_:button9:585443:
 
 public void button10_click1(GButton source, GEvent event) { //_CODE_:button10:402944:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
   txaEvent.appendText("**Generel information om Venus:**");
@@ -56,10 +56,10 @@ txaEvent.setVisible(true);
 } //_CODE_:button10:402944:
 
 public void button11_click1(GButton source, GEvent event) { //_CODE_:button11:609541:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
-   txaEvent.appendText("Generel informaton om Jorden:");
+  txaEvent.appendText("Generel informaton om Jorden:");
   txaEvent.appendText("Placering og størrelse: Jorden befinder sig omkring 149,6 millioner kilometer fra Solen i det indre af Solens beboelige zone, kaldet \"Goldilocks-zonen\". Den har en diameter på cirka 12.742 kilometer og er den femte største planet i vores solsystem.");
   txaEvent.appendText("Atmosfære: Jorden har en atmosfære, der primært består af nitrogen (ca. 78%) og ilt (ca. 21%), med spor af andre gasser som argon, kuldioxid og vanddamp.");
   txaEvent.appendText("Vand: Cirka 71% af Jordens overflade er dækket af vand, hvoraf størstedelen er saltvand i havene. Kun ca. 3% af vandet er ferskvand, og det meste af det er frosset i iskapper og gletsjere.");
@@ -78,7 +78,7 @@ txaEvent.setVisible(true);
 } //_CODE_:button11:609541:
 
 public void button12_click1(GButton source, GEvent event) { //_CODE_:button12:260242:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
 
@@ -86,7 +86,7 @@ txaEvent.setVisible(true);
 } //_CODE_:button12:260242:
 
 public void button13_click1(GButton source, GEvent event) { //_CODE_:button13:957542:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
 
@@ -94,7 +94,7 @@ txaEvent.setVisible(true);
 } //_CODE_:button13:957542:
 
 public void button14_click1(GButton source, GEvent event) { //_CODE_:button14:429300:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
 
@@ -102,7 +102,7 @@ txaEvent.setVisible(true);
 } //_CODE_:button14:429300:
 
 public void button15_click1(GButton source, GEvent event) { //_CODE_:button15:964870:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
   txaEvent.setText("");
 
@@ -118,16 +118,80 @@ public void button16_click1(GButton source, GEvent event) { //_CODE_:button16:83
 } //_CODE_:button16:836543:
 
 public void button1_click1(GButton source, GEvent event) { //_CODE_:button1:896522:
-txaEvent.setVisible(true);
+  txaEvent.setVisible(true);
 
-txaEvent.setText("");
+  txaEvent.setText("");
   txaEvent.appendText("button1 - GButton >> GEvent." + event + " @ " + millis());
 } //_CODE_:button1:896522:
 
 public void button2_click1(GButton source, GEvent event) { //_CODE_:button2:425308:
-    txaEvent.setVisible(false);
-
+  txaEvent.setVisible(false);
 } //_CODE_:button2:425308:
+
+public void Slider1(GCustomSlider source, GEvent event) { //_CODE_:Slider:294964:
+  txaEvent2.setText("");
+  txaEvent2.appendText("dag:"+source.getValueI());
+  inputDay = (int) source.getValueI();
+  // int (Slider.getValueI());
+  //int sliderValue=source.getValueI();
+  calculateDayNumber();
+} //_CODE_:Slider:294964:
+
+public void textarea1_change2(GTextArea source, GEvent event) { //_CODE_:txaEvent2:654570:
+  println("textarea1 - GTextArea >> GEvent." + event + " @ " + millis());
+} //_CODE_:txaEvent2:654570:
+
+public void custom_slider1_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider2:486002:
+  txaEvent3.setText("");
+  txaEvent3.appendText("måned:"+source.getValueI());
+  inputMonth = (int) source.getValueI();
+  // int (Slider.getValueI());
+  //int sliderValue=source.getValueI();
+  calculateDayNumber();
+} //_CODE_:Slider2:486002:
+
+public void textarea1_change3(GTextArea source, GEvent event) { //_CODE_:txaEvent3:317617:
+  println("textarea1 - GTextArea >> GEvent." + event + " @ " + millis());
+} //_CODE_:txaEvent3:317617:
+
+public void custom_slider2_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider3:937341:
+  txaEvent4.setText("");
+txaEvent4.appendText("år:"+source.getValueI());
+inputYear = (int) source.getValueI();
+  // int (Slider.getValueI());
+//int sliderValue=source.getValueI();
+calculateDayNumber();
+} //_CODE_:Slider3:937341:
+
+public void textarea1_change4(GTextArea source, GEvent event) { //_CODE_:txaEvent4:691412:
+  println("txaEvent4 - GTextArea >> GEvent." + event + " @ " + millis());
+} //_CODE_:txaEvent4:691412:
+
+public void button3_click1(GButton source, GEvent event) { //_CODE_:button3:204840:
+  txaEvent2.setVisible(false);
+  txaEvent3.setVisible(false);
+  txaEvent4.setVisible(false);
+  Slider.setVisible(false);
+  Slider2.setVisible(false);
+  Slider3.setVisible(false);
+} //_CODE_:button3:204840:
+
+public void button4_click1(GButton source, GEvent event) { //_CODE_:button4:553073:
+  txaEvent2.setVisible(true);
+  txaEvent3.setVisible(true);
+  txaEvent4.setVisible(true);
+  Slider.setVisible(true);
+  Slider2.setVisible(true);
+  Slider3.setVisible(true);
+} //_CODE_:button4:553073:
+
+public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:360974:
+  
+} //_CODE_:button5:360974:
+
+public void checkbox1_clicked1(GCheckbox source, GEvent event) { //_CODE_:checkbox1:698210:
+  println("checkbox1 - GCheckbox >> GEvent." + event + " @ " + millis());
+} //_CODE_:checkbox1:698210:
 
 
 
@@ -138,7 +202,7 @@ public void createGUI(){
   G4P.setGlobalColorScheme(GCScheme.BLUE_SCHEME);
   G4P.setCursor(ARROW);
   surface.setTitle("Sketch Window");
-  txaEvent = new GTextArea(this, 79, 3, 300, 400, G4P.SCROLLBARS_VERTICAL_ONLY | G4P.SCROLLBARS_AUTOHIDE);
+  txaEvent = new GTextArea(this, 79, 3, 400, 300, G4P.SCROLLBARS_VERTICAL_ONLY | G4P.SCROLLBARS_AUTOHIDE);
   txaEvent.setText("textarea1_change1");
   txaEvent.setPromptText("textarea1_change1");
   txaEvent.setOpaque(true);
@@ -173,6 +237,53 @@ public void createGUI(){
   button2 = new GButton(this, 0, 270, 80, 30);
   button2.setText("BE GONE!");
   button2.addEventHandler(this, "button2_click1");
+  Slider = new GCustomSlider(this, 0, 300, 385, 60, "grey_blue");
+  Slider.setShowValue(true);
+  Slider.setShowLimits(true);
+  Slider.setLimits(1, 1, 29);
+  Slider.setShowTicks(true);
+  Slider.setNumberFormat(G4P.INTEGER, 0);
+  Slider.setOpaque(true);
+  Slider.addEventHandler(this, "Slider1");
+  txaEvent2 = new GTextArea(this, 385, 300, 95, 60, G4P.SCROLLBARS_NONE);
+  txaEvent2.setOpaque(true);
+  txaEvent2.addEventHandler(this, "textarea1_change2");
+  Slider2 = new GCustomSlider(this, 0, 360, 385, 60, "grey_blue");
+  Slider2.setShowValue(true);
+  Slider2.setShowLimits(true);
+  Slider2.setLimits(1, 1, 12);
+  Slider2.setShowTicks(true);
+  Slider2.setNumberFormat(G4P.INTEGER, 0);
+  Slider2.setOpaque(true);
+  Slider2.addEventHandler(this, "custom_slider1_change1");
+  txaEvent3 = new GTextArea(this, 385, 360, 95, 60, G4P.SCROLLBARS_NONE);
+  txaEvent3.setOpaque(true);
+  txaEvent3.addEventHandler(this, "textarea1_change3");
+  Slider3 = new GCustomSlider(this, 0, 420, 385, 60, "grey_blue");
+  Slider3.setShowValue(true);
+  Slider3.setShowLimits(true);
+  Slider3.setLimits(2000, 2000, 2024);
+  Slider3.setShowTicks(true);
+  Slider3.setNumberFormat(G4P.INTEGER, 0);
+  Slider3.setOpaque(true);
+  Slider3.addEventHandler(this, "custom_slider2_change1");
+  txaEvent4 = new GTextArea(this, 385, 420, 95, 60, G4P.SCROLLBARS_NONE);
+  txaEvent4.setOpaque(true);
+  txaEvent4.addEventHandler(this, "textarea1_change4");
+  button3 = new GButton(this, 0, 480, 80, 30);
+  button3.setText("BE GONE SLIDER!");
+  button3.addEventHandler(this, "button3_click1");
+  button4 = new GButton(this, 0, 510, 80, 30);
+  button4.setText("COME BACK SLIDER");
+  button4.addEventHandler(this, "button4_click1");
+  button5 = new GButton(this, 0, 540, 80, 30);
+  button5.setText("Tids start");
+  button5.addEventHandler(this, "button5_click1");
+  checkbox1 = new GCheckbox(this, 2, 570, 82, 33);
+  checkbox1.setIconAlign(GAlign.LEFT, GAlign.MIDDLE);
+  checkbox1.setText("checkbox text");
+  checkbox1.setOpaque(false);
+  checkbox1.addEventHandler(this, "checkbox1_clicked1");
 }
 
 // Variable declarations 
@@ -188,3 +299,13 @@ GButton button15;
 GButton button16; 
 GButton button1; 
 GButton button2; 
+GCustomSlider Slider; 
+GTextArea txaEvent2; 
+GCustomSlider Slider2; 
+GTextArea txaEvent3; 
+GCustomSlider Slider3; 
+GTextArea txaEvent4; 
+GButton button3; 
+GButton button4; 
+GButton button5; 
+GCheckbox checkbox1; 
