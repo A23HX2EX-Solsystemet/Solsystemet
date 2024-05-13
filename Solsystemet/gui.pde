@@ -185,14 +185,6 @@ public void button4_click1(GButton source, GEvent event) { //_CODE_:button4:5530
   Slider3.setVisible(true);
 } //_CODE_:button4:553073:
 
-public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:360974:
-  
-} //_CODE_:button5:360974:
-
-public void checkbox1_clicked1(GCheckbox source, GEvent event) { //_CODE_:checkbox1:698210:
-  println("checkbox1 - GCheckbox >> GEvent." + event + " @ " + millis());
-} //_CODE_:checkbox1:698210:
-
 
 
 // Create all the GUI controls. 
@@ -276,14 +268,6 @@ public void createGUI(){
   button4 = new GButton(this, 0, 510, 80, 30);
   button4.setText("COME BACK SLIDER");
   button4.addEventHandler(this, "button4_click1");
-  button5 = new GButton(this, 0, 540, 80, 30);
-  button5.setText("Tids start");
-  button5.addEventHandler(this, "button5_click1");
-  checkbox1 = new GCheckbox(this, 2, 570, 82, 33);
-  checkbox1.setIconAlign(GAlign.LEFT, GAlign.MIDDLE);
-  checkbox1.setText("checkbox text");
-  checkbox1.setOpaque(false);
-  checkbox1.addEventHandler(this, "checkbox1_clicked1");
 }
 
 // Variable declarations 
@@ -307,5 +291,3 @@ GCustomSlider Slider3;
 GTextArea txaEvent4; 
 GButton button3; 
 GButton button4; 
-GButton button5; 
-GCheckbox checkbox1; 
