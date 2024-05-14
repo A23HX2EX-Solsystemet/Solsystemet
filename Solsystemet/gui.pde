@@ -21,13 +21,13 @@ public void textarea1_change1(GTextArea source, GEvent event) { //_CODE_:txaEven
 public void button9_click1(GButton source, GEvent event) { //_CODE_:button9:585443:
   txaEvent.setVisible(true);
   txaEvent.setText("");
-  txaEvent.appendText("**Generel information om Merkur:**");
+  txaEvent.appendText("Generel information om Merkur:");
   txaEvent.appendText("1. Merkur er kun lidt større end Månen og befinder sig kun 57,9 millioner kilometer fra Solen.");
   txaEvent.appendText("2. Den tager omkring 88 jorddage at fuldføre en omgang om Solen, hvilket gør dens omløbstid meget kort i forhold til Jorden.");
   txaEvent.appendText("3.Merkur har en meget tynd atmosfære, primært bestående af spor af ilt, natrium, hydrogen, helium og kalium.");
   txaEvent.appendText("4.Overfladetemperaturen på Merkur svinger ekstremt, fra omkring -173 °C om natten til omkring 427 °C om dagen.");
-  txaEvent.appendText("5. Merkurs overflade er kendetegnet ved kratere, klipper og stejle klipper. Den har også nogle af de mest udprægede skråninger i solsystemet.");
-  txaEvent.appendText("**Sjove fakta om Merkur:**");
+  txaEvent.appendText("5. Merkurs overflade er kendetegnet ved kratere, klipper og stejle klipper.");
+  txaEvent.appendText("Sjove fakta om Merkur:");
   txaEvent.appendText("2. På grund af dens langsomme rotation har svare en dag på Merkur til 176 jorddage.");
   txaEvent.appendText("3. Det højeste bjerg på Merkur kaldes for Hokusai-bjergene og når en højde på omkring 4,6 kilometer.");
   txaEvent.appendText("4. I modsætning til mange andre planeter i solsystemet, har Merkur ingen naturlige måner.");
@@ -43,14 +43,14 @@ public void button10_click1(GButton source, GEvent event) { //_CODE_:button10:40
 
   txaEvent.setText("");
 
-  txaEvent.appendText("**Generel information om Venus:**");
+  txaEvent.appendText("Generel information om Venus:");
   txaEvent.appendText("1. Venus er omtrent samme størrelse som Jorden og befinder sig omkring 108 millioner kilometer fra Solen.");
   txaEvent.appendText("2. Venus tager cirka 225 jorddage at fuldføre en omgang om Solen.");
   txaEvent.appendText("3. Venus har en meget tæt atmosfære, der hovedsageligt består af kulstofdioxid med spor af nitrogen og andre gasser.");
   txaEvent.appendText("4.Overfladetemperaturen på Venus er ekstremt høj og kan nå op på omkring 462 °C, hvilket gør den til den varmeste planet i vores solsystem.");
   txaEvent.appendText("5.  Venus overflade er dækket af vulkanske sletter, bjergkæder og tusindvis af vulkaner.");
   txaEvent.appendText("**Sjove fakta om Venus:**");
-  txaEvent.appendText("1. Venus roterer i modsat retning af de fleste andre planeter i solsystemet, hvilket betyder, at dens solopgang er i vest og solnedgang i øst.");
+  txaEvent.appendText("1. Venus roterer i modsat retning end Jorden hvilket betyder, at dens solopgang er i vest og solnedgang i øst.");
   txaEvent.appendText("2. På grund af dens langsomme rotation tager en dag på Venus cirka 243 jorddage.");
   txaEvent.appendText("3. Venus' atmosfære skaber et ekstremt drivhusmiljø, hvor temperaturen er varm nok til at smelte bly.");
   txaEvent.appendText("4.  Venus har tykke lag af syreholdige skyer, der består hovedsageligt af svovlsyre.");
@@ -65,17 +65,17 @@ public void button11_click1(GButton source, GEvent event) { //_CODE_:button11:60
 
   txaEvent.setText("");
   txaEvent.appendText("Generel informaton om Jorden:");
-  txaEvent.appendText("Jorden befinder sig omkring 149,6 millioner kilometer fra Solen.");
-  txaEvent.appendText("Cirka 71% af Jordens overflade er dækket af vand, hvoraf størstedelen er saltvand i havene.");
-  txaEvent.appendText("Jorden er den eneste kendte planet i universet, der understøtter liv.");
-  txaEvent.appendText("Jorden har en naturlig satellit, Månen, der kredser omkring den i en elliptisk bane. Månen spiller en vigtig rolle i Jorden livscyklus, især i tidevandsprocesser.");
-  txaEvent.appendText("Jorden har forskellige årstider på grund af sin aksehældning.");
+  txaEvent.appendText("1.Jorden befinder sig omkring 149,6 millioner kilometer fra Solen.");
+  txaEvent.appendText("2.Cirka 71% af Jordens overflade er dækket af vand, hvoraf størstedelen er saltvand i havene.");
+  txaEvent.appendText("3.Jorden er den eneste kendte planet i universet, der understøtter liv.");
+  txaEvent.appendText("4.Jorden har en måne som kontrollere tidevandet.");
+  txaEvent.appendText("5.Jorden har forskellige årstider på grund af sin aksehældning.");
   txaEvent.appendText("Sjove fakta om Jorden:");
-  txaEvent.appendText("Jordens yngre dage: Jorden er omkring 4,54 milliarder år gammel, men livsformer begyndte først for omkring 3,5 milliarder år siden.");
-  txaEvent.appendText("Mount Everest, den højeste bjergtop på Jorden, stiger 8.848 meter over havets overflade.");
-  txaEvent.appendText("Marianergraven, det dybeste punkt i Jordens oceaner, er mere end 10.900 meter dybt. Det er dybere end Mount Everest er højt!");
-  txaEvent.appendText("Magnetfelt: Jordens magnetfelt er afgørende for at beskytte os mod solvinden og kosmisk stråling.");
-  txaEvent.appendText("Det tager kun cirka 8 minutter og 20 sekunder for lys at rejse fra Solen til Jorden.");
+  txaEvent.appendText("1. Jorden er omkring 4,54 milliarder år gammel.");
+  txaEvent.appendText("2.Mount Everest, den højeste bjergtop på Jorden, stiger 8.848 meter over havets overflade.");
+  txaEvent.appendText("3.Marianergraven, det dybeste punkt i Jordens oceaner, er mere end 10.900 meter dybt. Det er dybere end Mount Everest er højt.");
+  txaEvent.appendText("4.Magnetfelt: Jordens magnetfelt er afgørende for at beskytte os mod solvinden og kosmisk stråling.");
+  txaEvent.appendText("5.Det tager ca. cirka 8 minutter og 20 sekunder for lys at rejse fra Solen til Jorden.");
   
   txaEvent.appendText("kilde: https://science.nasa.gov/earth/facts/");
 
@@ -87,17 +87,17 @@ public void button12_click1(GButton source, GEvent event) { //_CODE_:button12:26
   txaEvent.setText("");
 
   txaEvent.appendText("Generel informaton om Mars:");
-  txaEvent.appendText("mars er den fjerde planet fra Solen og den syvende største.");
-  txaEvent.appendText("mars har en radius på 3.390 kilometer som svare ca. til halvdelen af jordens spørgsmål");
-  txaEvent.appendText("Mars har 2 måner kaldet phobos og Daimos, de begge har en kartoffelform da de ikke er store nok til at blive til circkler ");
-  txaEvent.appendText("Marses kerne er en lavet af jern,nikkel og svovl, med en radius på 2100km");
-  txaEvent.appendText("en dag på mars vare 24,6 timer som er lidt mere end det vi opblever på jorden");
+  txaEvent.appendText("1. Mars er den fjerde planet fra Solen og den syvende største.");
+  txaEvent.appendText("2.Mars har en radius på 3.390 kilometer som svare ca. til halvdelen af jordens spørgsmål.");
+  txaEvent.appendText("3. Mars har 2 måner kaldet phobos og Daimos, de begge har en kartoffelform da de ikke er store nok til at blive til circkler. ");
+  txaEvent.appendText("4. Marses kerne er en lavet af jern,nikkel og svovl, med en radius på 2100km.");
+  txaEvent.appendText("5. En dag på mars vare 24,6 timer som er lidt mere end det vi opblever på jorden.");
   txaEvent.appendText("Sjove fakta om Mars:");
-  txaEvent.appendText("Mars er den eneste planet der er udelukende beboet med roboter");
-  txaEvent.appendText("Mars har en tynd atmosfære, der hovedsageligt består af kuldioxid, nitrogen og argongasser.");
-  txaEvent.appendText("Nogle tegn fra fortiden tyder på, at Mars oplevede enorme oversvømmelser for omkring 3,5 milliarder år siden.");
-  txaEvent.appendText("Mars har den største vulkan i solsystemet kaldet Olympus Mons der er tre gange højre en Mt. Everest");
-  txaEvent.appendText("Temperaturen på Mars kan være så høj som 70 grader, eller så lav som omkring -225 grader");
+  txaEvent.appendText("1. Mars er den eneste planet der er udelukende beboet med roboter.");
+  txaEvent.appendText("2. Mars har en tynd atmosfære, der hovedsageligt består af kuldioxid, nitrogen og argongasser.");
+  txaEvent.appendText("3. Nogle tegn fra fortiden tyder på, at Mars oplevede enorme oversvømmelser for omkring 3,5 milliarder år siden.");
+  txaEvent.appendText("4. Mars har den største vulkan i solsystemet kaldet Olympus Mons der er tre gange højre en Mt. Everest.");
+  txaEvent.appendText("5. Temperaturen på Mars kan være så høj som 70 grader, eller så lav som omkring -225 grader.");
   
   txaEvent.appendText("kilde: https://science.nasa.gov/mars/facts/");
 
@@ -109,17 +109,17 @@ public void button13_click1(GButton source, GEvent event) { //_CODE_:button13:95
   txaEvent.setText("");
 
   txaEvent.appendText("Generel informaton om Jupiter:");
-  txaEvent.appendText("Jupiter har 95 forskellige måner. Den første måne blev opdaget i 1610 af galileo");
-  txaEvent.appendText("Jupiters indhold minder meget om Solens og består mest af hydrogen og helium");
-  txaEvent.appendText("Jupiter har ikke en overflade da den er lavet af gasser og er derfor ikke mulig at stå på");
-  txaEvent.appendText("Jupiters magnetfelt er 16 til 54 gange så kraftig som jordens, det går an på hvor man står.");
-  txaEvent.appendText("Jupiter har en radius på 69.911 som svare til 11 gange bredere end jorden");
+  txaEvent.appendText("1. Jupiter har 95 forskellige måner. Den første måne blev opdaget i 1610 af galileo.");
+  txaEvent.appendText("2. Jupiters indhold minder meget om Solens og består mest af hydrogen og helium.");
+  txaEvent.appendText("3. Jupiter har ikke en overflade da den er lavet af gasser og er derfor ikke mulig at stå på.");
+  txaEvent.appendText("4. Jupiters magnetfelt er 16 til 54 gange så kraftig som jordens, det går an på hvor man står.");
+  txaEvent.appendText("5. Jupiter har en radius på 69.911 som svare til 11 gange bredere end jorden.");
   txaEvent.appendText("Sjove fakta om Jupiter:");
-  txaEvent.appendText("Jupiter, som er den største planet, har fået sit navn fra kongen af de gamle romerske guder.");
-  txaEvent.appendText("Jupiter de samme ingredienser som en stjerne, men den voksede ikke massiv nok til at antænde.");
-  txaEvent.appendText("Vi ved ikke helt hvad Jupiters kerne består af, men forskere tror at den består af tungere grundstoffer, is og sten.");
-  txaEvent.appendText("jupiter består af tre forskellige skylag der er tilsammen 71 kilometer.");
-  txaEvent.appendText("det tager Jupiter 10 timer at lave en rotation rund om sig selv.");
+  txaEvent.appendText("1. Jupiter, som er den største planet, har fået sit navn fra kongen af de gamle romerske guder.");
+  txaEvent.appendText("2. Jupiter de samme ingredienser som en stjerne, men den voksede ikke massiv nok til at antænde.");
+  txaEvent.appendText("3. Vi ved ikke helt hvad Jupiters kerne består af, men forskere tror at den består af tungere grundstoffer, is og sten.");
+  txaEvent.appendText("4. jupiter består af tre forskellige skylag der er tilsammen 71 kilometer.");
+  txaEvent.appendText("5. det tager Jupiter 10 timer at lave en rotation rund om sig selv.");
   
   txaEvent.appendText("kilde:https://science.nasa.gov/jupiter/jupiter-facts/ ");
 
@@ -131,17 +131,17 @@ public void button14_click1(GButton source, GEvent event) { //_CODE_:button14:42
   txaEvent.setText("");
 
     txaEvent.appendText("Generel informaton om Saturn:");
-txaEvent.appendText("Saturn har en diameter på 120.500 kilometer som svare til 9 gange jordens størrelse");
-txaEvent.appendText("saturn har 146 måner hvor den mest kendte er Titan og Phoebe");
-txaEvent.appendText("Saturn er en af de 3 planeter med en ringe. Ringene består af kometer,astroider og knuste måner");
-txaEvent.appendText("Saturn har en atsmofære og massive vinde på planeten. Vindstyrken kan varigere men er imellem 110 og 500 m/s ");
-txaEvent.appendText("Ligesom Jupiter har Saturn ikke en rigtig overflade");
+txaEvent.appendText("1. Saturn har en diameter på 120.500 kilometer som svare til 9 gange jordens størrelse.");
+txaEvent.appendText("2. Saturn har 146 måner hvor den mest kendte er Titan og Phoebe.");
+txaEvent.appendText("3. Saturn er en af de 3 planeter med en ringe. Ringene består af kometer,astroider og knuste måner.");
+txaEvent.appendText("4. Saturn har en atsmofære og massive vinde på planeten. Vindstyrken kan varigere men er imellem 110 og 500 m/s. ");
+txaEvent.appendText("5. Ligesom Jupiter har Saturn ikke en rigtig overflade.");
   txaEvent.appendText("Sjove fakta om Saturn:");
-txaEvent.appendText("Planeten er opkaldt efter den romerske gud for landbrug og rigdom, som også var far til Jupiter.");
-txaEvent.appendText("Saturn nordpol er ikke formet som en cirkel ligesom på andre planeter, men er en seks kant");
-txaEvent.appendText("Saturns Magnetfelt er ikke ligså stærk som Jupiters, men stærkere end Jordens");
-txaEvent.appendText("Saturns Ringe er ikke en ring men flere små ringe der er ved siden hindanden");
-txaEvent.appendText("Saturn har en mindre gennemsnitlig tæthed end vand og kan derfor flyde i havet");
+txaEvent.appendText("1. Planeten er opkaldt efter den romerske gud for landbrug og rigdom, som også var far til Jupiter.");
+txaEvent.appendText("2. Saturn nordpol er ikke formet som en cirkel ligesom på andre planeter, men er en seks kant.");
+txaEvent.appendText("3. Saturns Magnetfelt er ikke ligså stærk som Jupiters, men stærkere end Jordens.");
+txaEvent.appendText("4. Saturns Ringe er ikke en ring men flere små ringe der er ved siden hindanden.");
+txaEvent.appendText("5. Saturn har en mindre gennemsnitlig tæthed end vand og kan derfor flyde i havet.");
 
 txaEvent.appendText("kilde: https://science.nasa.gov/saturn/facts/");
 
@@ -162,7 +162,7 @@ txaEvent.appendText("planeten blev opkaldt efter Uranus, den græske himmelgud."
 txaEvent.appendText("Uranus' miljø er ikke befordrende for livet, som vi kender det. Temperaturne og miljøet er for voldsomme til liv.");
 txaEvent.appendText("Uranus har en diameter på 51.118 kilometer som svare til 4 gange bredere end jorden.");
 txaEvent.appendText("En dag på Uranus svare til 17 timer.");
-txaEvent.appendText("det tager Uranus 84 år for at komme hel vejen rundt om Solen");
+txaEvent.appendText("det tager Uranus 84 år for at komme hel vejen rundt om Solen.");
 
 txaEvent.appendText("kilde:https://science.nasa.gov/uranus/facts/");
 
@@ -175,17 +175,17 @@ public void button16_click1(GButton source, GEvent event) { //_CODE_:button16:83
   txaEvent.setText("");
 
       txaEvent.appendText("Generel informaton om Neptun:");
-      txaEvent.appendText("Neptun er ikke egnet til liv begrund af det hårde klima");
-txaEvent.appendText("neptun har en diameter på 49.528 kilometer som svare til fire gange jordens");
-txaEvent.appendText("en dag på Neptun er 16 timer og det tager planeten 165 år at komme hele vejen rundt om Solen");
-txaEvent.appendText("Neptun har 16 måner og den mest kendte hedder Triton.");
-txaEvent.appendText("neptun har 5 store ringe og 4 mindre ringe");
+      txaEvent.appendText("1. Neptun er ikke egnet til liv begrund af det hårde klima.");
+txaEvent.appendText("2. Neptun har en diameter på 49.528 kilometer som svare til fire gange jordens.");
+txaEvent.appendText("3. En dag på Neptun er 16 timer og det tager planeten 165 år at komme hele vejen rundt om Solen.");
+txaEvent.appendText("4. Neptun har 16 måner og den mest kendte hedder Triton.");
+txaEvent.appendText("5. Neptun har 5 store ringe og 4 mindre ringe.");
   txaEvent.appendText("Sjove fakta om Neptun:");
- txaEvent.appendText("Planeten er opkaldt efter den romerske havgud.");
- txaEvent.appendText("Triton er den eneste store måne der kredser om i sin planet i en modsat retning end dens planet");
- txaEvent.appendText("Neptun er en isgigant og 80% af den masse består af froset vand, metan og ammoniak");
- txaEvent.appendText("Neptun har ikke en særlig stor kerne og består af hovedstagligt sten");
- txaEvent.appendText("neptuns magnetfelt er ca. 27 gange stærkere end jordens");
+ txaEvent.appendText("1. Planeten er opkaldt efter den romerske havgud.");
+ txaEvent.appendText("2. Triton er den eneste store måne der kredser om i sin planet i en modsat retning end dens planet.");
+ txaEvent.appendText("3. Neptun er en isgigant og 80% af den masse består af froset vand, metan og ammoniak.");
+ txaEvent.appendText("4. Neptun har ikke en særlig stor kerne og består af hovedstagligt sten.");
+ txaEvent.appendText("5. Neptuns magnetfelt er ca. 27 gange stærkere end jordens.");
  
  txaEvent.appendText("kilde:https://science.nasa.gov/neptune/facts/");
 
@@ -197,17 +197,17 @@ public void button1_click1(GButton source, GEvent event) { //_CODE_:button1:8965
 
   txaEvent.setText("");
         txaEvent.appendText("Generel informaton om Solen:");
-txaEvent.appendText("Solen består hovedsageligt af helium og brint");
-txaEvent.appendText("kernen er den varmeste del af solen og er ca. 15 millioner grader og har en bredde på 138.000 kilometer");
-txaEvent.appendText("Solens overflade er ikke fast og bliver heller ikke kaldt en overflade men rigtigt er en fotosfære");
-txaEvent.appendText("Solen har forskellige faser kaldet solmaksimum og solminimum. ved maksimum er der flere solstorme end normalt");
-txaEvent.appendText("Solen består af forskellige lag. Kernen, strålingzonen konektionszonen og fotosfæren");
+txaEvent.appendText("1. Solen består hovedsageligt af helium og brint.");
+txaEvent.appendText("2. Kernen er den varmeste del af solen og er ca. 15 millioner grader og har en bredde på 138.000 kilometer.");
+txaEvent.appendText("3. Solens overflade er ikke fast og bliver heller ikke kaldt en overflade men rigtigt er en fotosfære.");
+txaEvent.appendText("4. Solen har forskellige faser kaldet solmaksimum og solminimum. ved maksimum er der flere solstorme end normalt.");
+txaEvent.appendText("5. Solen består af forskellige lag. Kernen, strålingzonen konektionszonen og fotosfæren.");
     txaEvent.appendText("Sjove fakta om Solen:");
-txaEvent.appendText("Solen er ca. 100 gange bredere end jorden og ca 10 gange bredere end Jupiter");
-txaEvent.appendText("Solen har haft mange navne, men den der bliver brugt i dag kommer fra det latinske ord sol");
-txaEvent.appendText("der er ikke mulighed for liv på solen da den er utrolig varm og ubehaglig at stå på");
-txaEvent.appendText("Tætheden i Solens kerne er 150gram per kubikcentimeter som svare til 8 gange densiteten af guld");
-txaEvent.appendText("Solen har en diameter på 1.400.000 kilometer, som svare til 330.000 ganges jordens masse");
+txaEvent.appendText("1. Solen er ca. 100 gange bredere end jorden og ca 10 gange bredere end Jupiter.");
+txaEvent.appendText("2. Solen har haft mange navne, men den der bliver brugt i dag kommer fra det latinske ord sol.");
+txaEvent.appendText("3. Der er ikke mulighed for liv på solen da den er utrolig varm og ubehaglig at stå på.");
+txaEvent.appendText("4. Tætheden i Solens kerne er 150gram per kubikcentimeter som svare til 8 gange densiteten af guld.");
+txaEvent.appendText("5. Solen har en diameter på 1.400.000 kilometer, som svare til 330.000 ganges jordens masse.");
 
 txaEvent.appendText("kilde: https://science.nasa.gov/sun/facts/#hds-sidebar-nav-6");
   
