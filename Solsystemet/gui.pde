@@ -349,7 +349,7 @@ public void createGUI(){
   Slider3.setNumberFormat(G4P.INTEGER, 0);
   Slider3.setOpaque(true);
   Slider3.addEventHandler(this, "custom_slider2_change1");
-  txaEvent4 = new GTextArea(this, 386, 420, 95, 60, G4P.SCROLLBARS_NONE);
+  txaEvent4 = new GTextArea(this, 385, 420, 95, 60, G4P.SCROLLBARS_NONE);
   txaEvent4.setText("år:2024");
   txaEvent4.setOpaque(true);
   txaEvent4.addEventHandler(this, "textarea1_change4");
