@@ -1,14 +1,14 @@
 class Planet {
   //atributer
   float y=0;
-  int radius, baneRadius, daysOfRotation, startDate;
-  color planetColor=#0000ff;
+  int radius, orbitRadius, daysOfRotation, startDate;
+  color planetColor;
  
 
   //constuktor
-  Planet(int daysOfRotation, color c, int baneRadius, int radius, int startDate) {
+  Planet(int daysOfRotation, color c, int orbitRadius, int radius, int startDate) {
     this.daysOfRotation=daysOfRotation;
-    this.baneRadius=baneRadius;
+    this.orbitRadius=orbitRadius;
     this.radius=radius;
     this.startDate=startDate;
     planetColor = c;
@@ -18,7 +18,7 @@ class Planet {
     pushMatrix();
     rotate(2*PI*(dayNumber+startDate)/daysOfRotation);
     fill(planetColor);
-    circle (baneRadius, y, radius);
+    circle (orbitRadius, y, radius);
     popMatrix();
   }
 }
