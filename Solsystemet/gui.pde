@@ -15,7 +15,6 @@
  */
 
 public void textarea1_change1(GTextArea source, GEvent event) { //_CODE_:txaEvent:837004:
-  println("textarea1 - GTextArea >> GEvent." + event + " @ " + millis());
 } //_CODE_:txaEvent:837004:
 
 public void button9_click1(GButton source, GEvent event) { //_CODE_:button9:585443:
@@ -215,7 +214,6 @@ public void Slider1(GCustomSlider source, GEvent event) { //_CODE_:Slider:294964
 } //_CODE_:Slider:294964:
 
 public void textarea1_change2(GTextArea source, GEvent event) { //_CODE_:txaEvent2:654570:
-  println("textarea1 - GTextArea >> GEvent." + event + " @ " + millis());
 } //_CODE_:txaEvent2:654570:
 
 public void custom_slider1_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider2:486002:
@@ -226,7 +224,6 @@ public void custom_slider1_change1(GCustomSlider source, GEvent event) { //_CODE
 } //_CODE_:Slider2:486002:
 
 public void textarea1_change3(GTextArea source, GEvent event) { //_CODE_:txaEvent3:317617:
-  println("textarea1 - GTextArea >> GEvent." + event + " @ " + millis());
 } //_CODE_:txaEvent3:317617:
 
 public void custom_slider2_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider3:937341:
@@ -238,7 +235,6 @@ public void custom_slider2_change1(GCustomSlider source, GEvent event) { //_CODE
 } //_CODE_:Slider3:937341:
 
 public void textarea1_change4(GTextArea source, GEvent event) { //_CODE_:txaEvent4:691412:
-  println("txaEvent4 - GTextArea >> GEvent." + event + " @ " + millis());
 } //_CODE_:txaEvent4:691412:
 
 public void button3_click1(GButton source, GEvent event) { //_CODE_:button3:204840:
@@ -272,7 +268,6 @@ public void custom_slider1_change2(GCustomSlider source, GEvent event) { //_CODE
 } //_CODE_:custom_slider1:208396:
 
 public void textarea1_change5(GTextArea source, GEvent event) { //_CODE_:txaEvent5:235097:
-  println("txaEvent5 - GTextArea >> GEvent." + event + " @ " + millis());
 } //_CODE_:txaEvent5:235097:
 
 
