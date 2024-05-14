@@ -354,7 +354,7 @@ public void createGUI() {
   Slider3 = new GCustomSlider(this, 0, 420, 385, 60, "grey_blue");
   Slider3.setShowValue(true);
   Slider3.setShowLimits(true);
-  Slider3.setLimits(2000, 2000, 2050);
+  Slider3.setLimits(2024, 2000, 2050);
   Slider3.setShowTicks(true);
   Slider3.setNumberFormat(G4P.INTEGER, 0);
   Slider3.setOpaque(true);
