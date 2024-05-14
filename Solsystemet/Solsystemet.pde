@@ -1,6 +1,6 @@
 import java.util.Calendar;
 import g4p_controls.*;
-int inputDay, inputMonth, inputYear, dayNumber, value = 0, hastighed;
+int inputDay, inputMonth, inputYear, dayNumber, value = 0, hastighed=0;
 
 
 
@@ -30,7 +30,7 @@ void setup() {
 
 void keyPressed() {
   if (value == 0) {
-   value = 0;
+   value = hastighed;
   } else {
   value = 0;
   }

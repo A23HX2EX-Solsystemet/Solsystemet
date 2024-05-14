@@ -267,6 +267,8 @@ public void custom_slider1_change2(GCustomSlider source, GEvent event) { //_CODE
   txaEvent5.setText("");
   txaEvent5.appendText("dage i sek:"+source.getValueI());
   value = (int) source.getValueI()/60;
+    hastighed = (int) source.getValueI()/60;
+
 } //_CODE_:custom_slider1:208396:
 
 public void textarea1_change5(GTextArea source, GEvent event) { //_CODE_:txaEvent5:235097:
