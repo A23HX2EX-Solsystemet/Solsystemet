@@ -1,11 +1,6 @@
 import java.util.Calendar;
 import g4p_controls.*;
-int inputDay;
-int  inputMonth;
-int  inputYear;
-int dayNumber;
-int value = 0;
-int hastighed;
+int inputDay, inputMonth, inputYear, dayNumber, value = 0, hastighed;
 
 
 

@@ -1,11 +1,9 @@
 class Planet {
   //atributer
   float y=0;
-  int radius;
-  int baneRadius;
+  int radius, baneRadius, daysOfRotation, startDate;
   color planetColor=#0000ff;
-  int daysOfRotation;
-  int startDate;
+ 
 
   //constuktor
   Planet(int daysOfRotation, color c, int baneRadius, int radius, int startDate) {
