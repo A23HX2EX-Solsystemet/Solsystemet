@@ -145,8 +145,6 @@ public void custom_slider1_change1(GCustomSlider source, GEvent event) { //_CODE
   txaEvent3.setText("");
   txaEvent3.appendText("måned:"+source.getValueI());
   inputMonth = (int) source.getValueI();
-  // int (Slider.getValueI());
-  //int sliderValue=source.getValueI();
   calculateDayNumber();
 } //_CODE_:Slider2:486002:
 
@@ -155,12 +153,12 @@ public void textarea1_change3(GTextArea source, GEvent event) { //_CODE_:txaEven
 } //_CODE_:txaEvent3:317617:
 
 public void custom_slider2_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider3:937341:
-  txaEvent4.setText("");
+ txaEvent4.setText("");
 txaEvent4.appendText("år:"+source.getValueI());
-inputYear = (int) source.getValueI();
-  // int (Slider.getValueI());
-//int sliderValue=source.getValueI();
+  //inputYear = (int) source.getValueI();
+  inputYear=(int)365*(source.getValueI()-2024);
 calculateDayNumber();
+  
 } //_CODE_:Slider3:937341:
 
 public void textarea1_change4(GTextArea source, GEvent event) { //_CODE_:txaEvent4:691412:
@@ -232,7 +230,7 @@ public void createGUI(){
   Slider = new GCustomSlider(this, 0, 300, 385, 60, "grey_blue");
   Slider.setShowValue(true);
   Slider.setShowLimits(true);
-  Slider.setLimits(1, 1, 29);
+  Slider.setLimits(1, 1, 31);
   Slider.setShowTicks(true);
   Slider.setNumberFormat(G4P.INTEGER, 0);
   Slider.setOpaque(true);
@@ -254,7 +252,7 @@ public void createGUI(){
   Slider3 = new GCustomSlider(this, 0, 420, 385, 60, "grey_blue");
   Slider3.setShowValue(true);
   Slider3.setShowLimits(true);
-  Slider3.setLimits(2000, 2000, 2024);
+  Slider3.setLimits(2000, 2000, 2050);
   Slider3.setShowTicks(true);
   Slider3.setNumberFormat(G4P.INTEGER, 0);
   Slider3.setOpaque(true);

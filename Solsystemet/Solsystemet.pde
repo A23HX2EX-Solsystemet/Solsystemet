@@ -25,7 +25,7 @@ void setup() {
   //Example input date
   inputDay=1;
   inputMonth =1;
-  inputYear = 2023;
+  inputYear = 2024;
   calculateDayNumber();
  value=0;
   createGUI();
@@ -60,8 +60,9 @@ void draw() {
 // Calculate day number of the year
 void calculateDayNumber() {
   Calendar calendar = Calendar.getInstance();
-  calendar.set(inputYear, inputMonth - 1, inputDay); // month is 0-based in Calendar
+  calendar.set(inputYear, inputMonth-1, inputDay); // month is 0-based in Calendar
   dayNumber = calendar.get(Calendar.DAY_OF_YEAR);
+  dayNumber=dayNumber+inputYear;
 }
 
 public void customGUI() {
