@@ -4,7 +4,8 @@ int inputDay;
 int  inputMonth;
 int  inputYear;
 int dayNumber;
-int value = 1;
+int value = 0;
+int hastighed;
 
 
 
@@ -27,16 +28,16 @@ void setup() {
   inputMonth =1;
   inputYear = 2024;
   calculateDayNumber();
- value=0;
+ //value=0;
   createGUI();
   customGUI();
 }
 
 void keyPressed() {
-  if (value == 1) {
-    value = 0;
+  if (value == 0) {
+   value = 0;
   } else {
-    value = 1;
+  value = 0;
   }
 }
 

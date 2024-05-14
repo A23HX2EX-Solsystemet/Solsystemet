@@ -40,6 +40,7 @@ public void button10_click1(GButton source, GEvent event) { //_CODE_:button10:40
   txaEvent.setVisible(true);
 
   txaEvent.setText("");
+
   txaEvent.appendText("**Generel information om Venus:**");
   txaEvent.appendText("1. **Størrelse og Afstand:** Venus er omtrent samme størrelse som Jorden og befinder sig omkring 108 millioner kilometer fra Solen.");
   txaEvent.appendText("2. **Omløbstid:** Venus tager cirka 225 jorddage at fuldføre en omgang om Solen.\n");
@@ -52,7 +53,6 @@ public void button10_click1(GButton source, GEvent event) { //_CODE_:button10:40
   txaEvent.appendText("3. **Inferno-lignende forhold:** Venus' atmosfære skaber et ekstremt drivhusmiljø, hvor temperaturen er varm nok til at smelte bly. Dette gør Venus til en af de mest uindbydende steder i solsystemet.");
   txaEvent.appendText("4. **Mærkelig skyformation:** Venus har tykke lag af syreholdige skyer, der består hovedsageligt af svovlsyre. Disse skyer reflekterer sollys så effektivt, at Venus kan ses fra Jorden som den tredje klareste nattehimmel.");
   txaEvent.appendText("5. **Navngivning:** Venus er opkaldt efter den romerske gudinde for kærlighed og skønhed.");
-  txaEvent.appendText("Selvom Venus og Merkur deler nogle ligheder, som deres relativt tætte afstand til Solen og deres roterende bevægelser, har de også markante forskelle, især når det kommer til atmosfæren og overfladeforholdene.");
 } //_CODE_:button10:402944:
 
 public void button11_click1(GButton source, GEvent event) { //_CODE_:button11:609541:
@@ -60,21 +60,17 @@ public void button11_click1(GButton source, GEvent event) { //_CODE_:button11:60
 
   txaEvent.setText("");
   txaEvent.appendText("Generel informaton om Jorden:");
-  txaEvent.appendText("Placering og størrelse: Jorden befinder sig omkring 149,6 millioner kilometer fra Solen i det indre af Solens beboelige zone, kaldet \"Goldilocks-zonen\". Den har en diameter på cirka 12.742 kilometer og er den femte største planet i vores solsystem.");
-  txaEvent.appendText("Atmosfære: Jorden har en atmosfære, der primært består af nitrogen (ca. 78%) og ilt (ca. 21%), med spor af andre gasser som argon, kuldioxid og vanddamp.");
-  txaEvent.appendText("Vand: Cirka 71% af Jordens overflade er dækket af vand, hvoraf størstedelen er saltvand i havene. Kun ca. 3% af vandet er ferskvand, og det meste af det er frosset i iskapper og gletsjere.");
-  txaEvent.appendText("Liv: Jorden er den eneste kendte planet i universet, der understøtter liv. Den er hjemsted for millioner af arter, herunder mennesker, planter og dyr.");
-  txaEvent.appendText("Månen: Jorden har en naturlig satellit, Månen, der kredser omkring den i en elliptisk bane. Månen spiller en vigtig rolle i Jorden livscyklus, især i tidevandsprocesser.");
+  txaEvent.appendText("Jorden befinder sig omkring 149,6 millioner kilometer fra Solen i det indre af Solens beboelige zone, kaldet \"Goldilocks-zonen\". Den har en diameter på cirka 12.742 kilometer og er den femte største planet i vores solsystem.");
+  txaEvent.appendText("Cirka 71% af Jordens overflade er dækket af vand, hvoraf størstedelen er saltvand i havene. Kun ca. 3% af vandet er ferskvand, og det meste af det er frosset i iskapper og gletsjere.");
+  txaEvent.appendText("Jorden er den eneste kendte planet i universet, der understøtter liv. Den er hjemsted for millioner af arter, herunder mennesker, planter og dyr.");
+  txaEvent.appendText("Jorden har en naturlig satellit, Månen, der kredser omkring den i en elliptisk bane. Månen spiller en vigtig rolle i Jorden livscyklus, især i tidevandsprocesser.");
   txaEvent.appendText("Årstider: Jorden har forskellige årstider på grund af sin aksehældning. Denne hældning forårsager, at forskellige dele af Jorden modtager mere eller mindre direkte sollys på forskellige tidspunkter af året, hvilket resulterer i skiftende temperaturer og klima.");
   txaEvent.appendText("Sjove fakta om Jorden:");
   txaEvent.appendText("Jordens yngre dage: Jorden er omkring 4,54 milliarder år gammel, men livsformer begyndte først for omkring 3,5 milliarder år siden.");
-  txaEvent.appendText("**Everest:** Mount Everest, den højeste bjergtop på Jorden, stiger 8.848 meter over havets overflade.\n\n");
+  txaEvent.appendText("Mount Everest, den højeste bjergtop på Jorden, stiger 8.848 meter over havets overflade.");
   txaEvent.appendText("Dybhav: Marianergraven, det dybeste punkt i Jordens oceaner, er mere end 10.900 meter dybt. Det er dybere end Mount Everest er højt!");
-  txaEvent.appendText("Ring of Fire: Den Stillehavsring af ild er et område med intens vulkansk aktivitet, hvor mange jordskælv og vulkanudbrud opstår.");
-  txaEvent.appendText("Magnetfelt: Jordens magnetfelt er afgørende for at beskytte os mod solvinden og kosmisk stråling. Det dannes af bevægelsen af smeltet jern og nikkel i Jordens ydre kerne.");
-  txaEvent.appendText("Længste flod: Amazonas i Sydamerika er verdens længste flod med en længde på cirka 6.575 kilometer.");
-  txaEvent.appendText("Hurtigste roterende punkt: Ækvatoriale områder af Jorden roterer hurtigere end polområderne. Dette betyder, at en person på ækvator bevæger sig med en hastighed på cirka 1670 kilometer i timen som følge af Jordens rotation.");
-  txaEvent.appendText("Lysrejse: Det tager kun cirka 8 minutter og 20 sekunder for lys at rejse fra Solen til Jorden, men det tager meget længere tid for lys at rejse fra andre stjerner i vores galakse til os.");
+  txaEvent.appendText("Magnetfelt: Jordens magnetfelt er afgørende for at beskytte os mod solvinden og kosmisk stråling.");
+  txaEvent.appendText("Lysrejse: Det tager kun cirka 8 minutter og 20 sekunder for lys at rejse fra Solen til Jorden.");
 } //_CODE_:button11:609541:
 
 public void button12_click1(GButton source, GEvent event) { //_CODE_:button12:260242:
@@ -82,7 +78,12 @@ public void button12_click1(GButton source, GEvent event) { //_CODE_:button12:26
 
   txaEvent.setText("");
 
-  txaEvent.appendText("button12 - GButton >> GEvent." + event + " @ " + millis());
+  txaEvent.appendText("Generel informaton om Mars:");
+  txaEvent.appendText("mars er den fjerde planet fra Solen og den syvende største.");
+  txaEvent.appendText("mars har en radius på 3.390 kilometer som svare ca. til halvdelen af jordens spørgsmål");
+
+  txaEvent.appendText("Sjove fakta om Mars:");
+  txaEvent.appendText("Mars er den eneste plaent der er udelukende beboet med roboter");
 } //_CODE_:button12:260242:
 
 public void button13_click1(GButton source, GEvent event) { //_CODE_:button13:957542:
@@ -153,12 +154,11 @@ public void textarea1_change3(GTextArea source, GEvent event) { //_CODE_:txaEven
 } //_CODE_:txaEvent3:317617:
 
 public void custom_slider2_change1(GCustomSlider source, GEvent event) { //_CODE_:Slider3:937341:
- txaEvent4.setText("");
-txaEvent4.appendText("år:"+source.getValueI());
+  txaEvent4.setText("");
+  txaEvent4.appendText("år:"+source.getValueI());
   //inputYear = (int) source.getValueI();
   inputYear=(int)365*(source.getValueI()-2024);
-calculateDayNumber();
-  
+  calculateDayNumber();
 } //_CODE_:Slider3:937341:
 
 public void textarea1_change4(GTextArea source, GEvent event) { //_CODE_:txaEvent4:691412:
@@ -169,19 +169,33 @@ public void button3_click1(GButton source, GEvent event) { //_CODE_:button3:2048
   txaEvent2.setVisible(false);
   txaEvent3.setVisible(false);
   txaEvent4.setVisible(false);
+  txaEvent5.setVisible(false);
   Slider.setVisible(false);
   Slider2.setVisible(false);
   Slider3.setVisible(false);
+  custom_slider1.setVisible(false);
 } //_CODE_:button3:204840:
 
 public void button4_click1(GButton source, GEvent event) { //_CODE_:button4:553073:
   txaEvent2.setVisible(true);
   txaEvent3.setVisible(true);
   txaEvent4.setVisible(true);
+  txaEvent5.setVisible(true);
   Slider.setVisible(true);
   Slider2.setVisible(true);
   Slider3.setVisible(true);
+  custom_slider1.setVisible(true);
 } //_CODE_:button4:553073:
+
+public void custom_slider1_change2(GCustomSlider source, GEvent event) { //_CODE_:custom_slider1:208396:
+txaEvent5.setText("");
+  txaEvent5.appendText("hastighed:"+source.getValueI());
+    value = (int) source.getValueI();
+} //_CODE_:custom_slider1:208396:
+
+public void textarea1_change5(GTextArea source, GEvent event) { //_CODE_:txaEvent5:235097:
+  println("txaEvent5 - GTextArea >> GEvent." + event + " @ " + millis());
+} //_CODE_:txaEvent5:235097:
 
 
 
@@ -252,7 +266,7 @@ public void createGUI(){
   Slider3 = new GCustomSlider(this, 0, 420, 385, 60, "grey_blue");
   Slider3.setShowValue(true);
   Slider3.setShowLimits(true);
-  Slider3.setLimits(2024, 2000, 2050);
+  Slider3.setLimits(2000, 2000, 2050);
   Slider3.setShowTicks(true);
   Slider3.setNumberFormat(G4P.INTEGER, 0);
   Slider3.setOpaque(true);
@@ -260,12 +274,23 @@ public void createGUI(){
   txaEvent4 = new GTextArea(this, 385, 420, 95, 60, G4P.SCROLLBARS_NONE);
   txaEvent4.setOpaque(true);
   txaEvent4.addEventHandler(this, "textarea1_change4");
-  button3 = new GButton(this, 0, 480, 80, 30);
+  button3 = new GButton(this, 0, 540, 80, 30);
   button3.setText("BE GONE SLIDER!");
   button3.addEventHandler(this, "button3_click1");
-  button4 = new GButton(this, 0, 510, 80, 30);
+  button4 = new GButton(this, 0, 570, 80, 30);
   button4.setText("COME BACK SLIDER");
   button4.addEventHandler(this, "button4_click1");
+  custom_slider1 = new GCustomSlider(this, 0, 481, 385, 60, "DECIMAL");
+  custom_slider1.setShowValue(true);
+  custom_slider1.setShowLimits(true);
+  custom_slider1.setLimits(1, 0, 20);
+  custom_slider1.setShowTicks(true);
+  custom_slider1.setNumberFormat(G4P.INTEGER, 0);
+  custom_slider1.setOpaque(true);
+  custom_slider1.addEventHandler(this, "custom_slider1_change2");
+  txaEvent5 = new GTextArea(this, 385, 480, 95, 60, G4P.SCROLLBARS_NONE);
+  txaEvent5.setOpaque(true);
+  txaEvent5.addEventHandler(this, "textarea1_change5");
 }
 
 // Variable declarations 
@@ -289,3 +314,5 @@ GCustomSlider Slider3;
 GTextArea txaEvent4; 
 GButton button3; 
 GButton button4; 
+GCustomSlider custom_slider1; 
+GTextArea txaEvent5; 
