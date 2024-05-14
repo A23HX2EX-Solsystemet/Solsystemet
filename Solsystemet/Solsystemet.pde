@@ -24,9 +24,9 @@ Planet neptun=new Planet(60152, #0095ff, 647, 49);//afstand fra solen 1:7 i mill
 void setup() {
   fullScreen();
   //Example input date
-  inputDay=1;
-  inputMonth =1;
-  inputYear = 2024;
+ // inputDay=1;
+  //inputMonth =1;
+  //inputYear = 2024;
   calculateDayNumber();
  //value=0;
   createGUI();

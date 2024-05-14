@@ -189,8 +189,8 @@ public void button4_click1(GButton source, GEvent event) { //_CODE_:button4:5530
 
 public void custom_slider1_change2(GCustomSlider source, GEvent event) { //_CODE_:custom_slider1:208396:
 txaEvent5.setText("");
-  txaEvent5.appendText("hastighed:"+source.getValueI());
-    value = (int) source.getValueI();
+  txaEvent5.appendText("dage i sek:"+source.getValueI());
+    value = (int) source.getValueI()/60;
 } //_CODE_:custom_slider1:208396:
 
 public void textarea1_change5(GTextArea source, GEvent event) { //_CODE_:txaEvent5:235097:
@@ -283,7 +283,7 @@ public void createGUI(){
   custom_slider1 = new GCustomSlider(this, 0, 481, 385, 60, "DECIMAL");
   custom_slider1.setShowValue(true);
   custom_slider1.setShowLimits(true);
-  custom_slider1.setLimits(1, 0, 20);
+  custom_slider1.setLimits(60, 60, 1200);
   custom_slider1.setShowTicks(true);
   custom_slider1.setNumberFormat(G4P.INTEGER, 0);
   custom_slider1.setOpaque(true);
